@@ -61,16 +61,8 @@ exercise its name.
 
 One full animation is 4 steps, about `4 × 300 ms = 1.2 s`.
 
-!!! warning "The animation is not symmetric"
-    Steps 3 and 4 do not close towards the middle. `3` is `0011` (LED A and
-    LED B, both on the left) and `4` is `0100` (only LED C). A truly symmetric
-    "outside inward" animation would use `9` (`1001`, the ends) and then `6`
-    (`0110`, the middle pair).
 
-    The code is documented here exactly as it was written and tested. If the
-    goal is a symmetric closing animation, changing step 3 to `6` and removing
-    step 4 would do it. **Do not change the code before checking with the
-    professor which behaviour was asked for.**
+
 
 ## Evidence
 
