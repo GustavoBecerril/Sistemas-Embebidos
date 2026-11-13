@@ -1,4 +1,4 @@
-site_name: Plantilla para Documentación
+site_name: Portafolio de Sistemas Embebidos I
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -38,3 +38,27 @@ extra_css:
   - https://use.fontawesome.com/releases/v6.5.2/css/all.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
 
+nav:
+  - Inicio: index.md
+  - 1er Parcial:
+      - Binary Counter: parcial1/binary_counter.md
+      - Bouncing Light: parcial1/bouncing_light.md
+      - Fill and Empty Animation: parcial1/fill_and_empty.md
+      - Fill From the Outside Inward: parcial1/fill_outside_inward.md
+      - AND Gate: parcial1/and_gate.md
+      - OR Gate: parcial1/or_gate.md
+      - XOR Gate: parcial1/xor_gate.md
+      - Exam 1: parcial1/exam1.md
+  - 2do Parcial:
+      - ADC Basic: parcial2/adc_basic.md
+      - ADC Filtering Level: parcial2/adc_filtering_level.md
+      - ADC Potentiometer: parcial2/adc_potentiometer.md
+      - ADC Temperature: parcial2/adc_temperature.md
+      - I2C RTC and MPU6050: parcial2/i2c_rtc_mpu6050.md
+      - PWM Oscilloscope Sweep: parcial2/pwm_oscilloscope_sweep.md
+      - PWM Piano: parcial2/pwm_piano.md
+      - Timer Workload: parcial2/timer_workload.md
+      - UART Bidirectional: parcial2/uart_bidirectional.md
+  - Recursos:
+      - Comandos: comandos.md
+      - Comandos Git: gitcmds.md
